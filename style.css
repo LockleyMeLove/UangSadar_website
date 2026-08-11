@@ -1,0 +1,32 @@
+/* ============================================
+   CSS CUSTOM - style.css
+   File ini isinya "dandanan tambahan" di luar Bootstrap.
+   Bootstrap kasih kerangka & warna default, file ini yang bikin
+   situsnya kelihatan beda dari situs Bootstrap generik lainnya.
+   ============================================ */
+
+/* 1. ELEMENT SELECTOR
+   Menunjuk langsung ke nama tag HTML-nya (di sini: <body>).
+   Berlaku ke SEMUA elemen <body> di halaman ini. */
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* 2. CLASS SELECTOR (pakai tanda titik ".")
+   Cuma berlaku ke elemen yang PUNYA class="hero" di HTML-nya.
+   Class ini yang paling sering dipakai karena bisa ditempel ke banyak elemen sekaligus. */
+.hero {
+  background-color: #f5f2ea;
+}
+
+/* 3. ID SELECTOR (pakai tanda pagar "#")
+   Cuma berlaku ke SATU elemen yang id="tahun".
+   Beda sama class: id itu harus unik, cuma boleh dipakai 1 kali per halaman. */
+#tahun {
+  font-weight: 600;
+}
+
+/* Sedikit jarak antar kartu artikel biar gak terlalu mepet ke tepi kartu */
+.card-body {
+  padding: 1.5rem;
+}
