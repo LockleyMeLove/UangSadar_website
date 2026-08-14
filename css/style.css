@@ -10,6 +10,7 @@
    Berlaku ke SEMUA elemen <body> di halaman ini. */
 body {
   font-family: "Segoe UI", sans-serif;
+  text-align: justify;
 }
 
 /* 2. CLASS SELECTOR (pakai tanda titik ".")
